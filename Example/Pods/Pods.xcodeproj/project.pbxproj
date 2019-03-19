@@ -40,6 +40,14 @@
 		D76939BD22409B0E00ED8FC1 /* UIImage+QCKJImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D76939A922409B0E00ED8FC1 /* UIImage+QCKJImage.m */; };
 		D76939D32240A22700ED8FC1 /* LViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D76939C92240A22700ED8FC1 /* LViewController.h */; };
 		D76939D42240A22700ED8FC1 /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76939CA2240A22700ED8FC1 /* LViewController.m */; };
+		D76939ED2240A50800ED8FC1 /* MyAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D76939E52240A50700ED8FC1 /* MyAppDelegate.h */; };
+		D76939EE2240A50800ED8FC1 /* QCKJLibSwitchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D76939E62240A50700ED8FC1 /* QCKJLibSwitchModel.m */; };
+		D76939EF2240A50800ED8FC1 /* QCKJLibNetTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D76939E72240A50800ED8FC1 /* QCKJLibNetTool.h */; };
+		D76939F02240A50800ED8FC1 /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D76939E82240A50800ED8FC1 /* MyAppDelegate.m */; };
+		D76939F12240A50800ED8FC1 /* QCKJLibSwitchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D76939E92240A50800ED8FC1 /* QCKJLibSwitchModel.h */; };
+		D76939F22240A50800ED8FC1 /* QCKJLibNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D76939EA2240A50800ED8FC1 /* QCKJLibNetTool.m */; };
+		D76939F32240A50800ED8FC1 /* QCKJLibNNDeviceInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = D76939EB2240A50800ED8FC1 /* QCKJLibNNDeviceInformation.h */; };
+		D76939F42240A50800ED8FC1 /* QCKJLibNNDeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = D76939EC2240A50800ED8FC1 /* QCKJLibNNDeviceInformation.m */; };
 		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		E0935B5A1875C50CCE22C02C298C7C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
@@ -127,6 +135,14 @@
 		D76939A922409B0E00ED8FC1 /* UIImage+QCKJImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+QCKJImage.m"; path = "UMQCWorking/Classes/UIImage+QCKJImage.m"; sourceTree = "<group>"; };
 		D76939C92240A22700ED8FC1 /* LViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LViewController.h; path = UMQCWorking/Classes/LViewController.h; sourceTree = "<group>"; };
 		D76939CA2240A22700ED8FC1 /* LViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LViewController.m; path = UMQCWorking/Classes/LViewController.m; sourceTree = "<group>"; };
+		D76939E52240A50700ED8FC1 /* MyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppDelegate.h; path = UMQCWorking/Classes/MyAppDelegate.h; sourceTree = "<group>"; };
+		D76939E62240A50700ED8FC1 /* QCKJLibSwitchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QCKJLibSwitchModel.m; path = UMQCWorking/Classes/QCKJLibSwitchModel.m; sourceTree = "<group>"; };
+		D76939E72240A50800ED8FC1 /* QCKJLibNetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QCKJLibNetTool.h; path = UMQCWorking/Classes/QCKJLibNetTool.h; sourceTree = "<group>"; };
+		D76939E82240A50800ED8FC1 /* MyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppDelegate.m; path = UMQCWorking/Classes/MyAppDelegate.m; sourceTree = "<group>"; };
+		D76939E92240A50800ED8FC1 /* QCKJLibSwitchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QCKJLibSwitchModel.h; path = UMQCWorking/Classes/QCKJLibSwitchModel.h; sourceTree = "<group>"; };
+		D76939EA2240A50800ED8FC1 /* QCKJLibNetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QCKJLibNetTool.m; path = UMQCWorking/Classes/QCKJLibNetTool.m; sourceTree = "<group>"; };
+		D76939EB2240A50800ED8FC1 /* QCKJLibNNDeviceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QCKJLibNNDeviceInformation.h; path = UMQCWorking/Classes/QCKJLibNNDeviceInformation.h; sourceTree = "<group>"; };
+		D76939EC2240A50800ED8FC1 /* QCKJLibNNDeviceInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QCKJLibNNDeviceInformation.m; path = UMQCWorking/Classes/QCKJLibNNDeviceInformation.m; sourceTree = "<group>"; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		E001932F7826492F903A14122F8BFC21 /* Pods-UMQCWorking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UMQCWorking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -324,6 +340,14 @@
 				D76939A922409B0E00ED8FC1 /* UIImage+QCKJImage.m */,
 				D76939C92240A22700ED8FC1 /* LViewController.h */,
 				D76939CA2240A22700ED8FC1 /* LViewController.m */,
+				D76939E52240A50700ED8FC1 /* MyAppDelegate.h */,
+				D76939E82240A50800ED8FC1 /* MyAppDelegate.m */,
+				D76939E72240A50800ED8FC1 /* QCKJLibNetTool.h */,
+				D76939EA2240A50800ED8FC1 /* QCKJLibNetTool.m */,
+				D76939EB2240A50800ED8FC1 /* QCKJLibNNDeviceInformation.h */,
+				D76939EC2240A50800ED8FC1 /* QCKJLibNNDeviceInformation.m */,
+				D76939E92240A50800ED8FC1 /* QCKJLibSwitchModel.h */,
+				D76939E62240A50700ED8FC1 /* QCKJLibSwitchModel.m */,
 				D15D8656487D3700DE29D308057A1B07 /* Pod */,
 				F6F15C5A36AAEAA2709A54F9E7DCFE87 /* Support Files */,
 			);
@@ -412,10 +436,14 @@
 				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
 				D76939D32240A22700ED8FC1 /* LViewController.h in Headers */,
 				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				D76939F12240A50800ED8FC1 /* QCKJLibSwitchModel.h in Headers */,
+				D76939EF2240A50800ED8FC1 /* QCKJLibNetTool.h in Headers */,
 				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				D76939F32240A50800ED8FC1 /* QCKJLibNNDeviceInformation.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+				D76939ED2240A50800ED8FC1 /* MyAppDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,8 +585,12 @@
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				D76939BD22409B0E00ED8FC1 /* UIImage+QCKJImage.m in Sources */,
 				D769399622408C3200ED8FC1 /* NSBundle+QCKJBundlle.m in Sources */,
+				D76939F02240A50800ED8FC1 /* MyAppDelegate.m in Sources */,
 				D76939D42240A22700ED8FC1 /* LViewController.m in Sources */,
+				D76939EE2240A50800ED8FC1 /* QCKJLibSwitchModel.m in Sources */,
+				D76939F42240A50800ED8FC1 /* QCKJLibNNDeviceInformation.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				D76939F22240A50800ED8FC1 /* QCKJLibNetTool.m in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
