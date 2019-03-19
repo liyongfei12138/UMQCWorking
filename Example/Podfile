@@ -5,10 +5,7 @@ target 'UMQCWorking_Example' do
   target 'UMQCWorking_Tests' do
     inherit! :search_paths
     
-    pod 'AFNetworking'
-    pod 'WebViewJavascriptBridge'
-    pod 'JPush'
-    pod 'UMengAnalytics-NO-IDFA'
+
     pod 'FBSnapshotTestCase'
   end
 end
