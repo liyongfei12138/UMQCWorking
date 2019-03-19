@@ -1,6 +1,0 @@
-framework module QCKJLib {
-  umbrella header "QCKJLib.h"
-
-  export *
-  module * { export * }
-}
