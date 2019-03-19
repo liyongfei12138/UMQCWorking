@@ -29,6 +29,9 @@ Pod::Spec.new do |s|
 s.resources =  'UMQCWorking/QCKJBundle.bundle'
 
 
+
+s.framework = 'libjpush-ios-3.1.0','libjcore-ios-1.2.2','UMMobClick'
+
  s.dependency 'AFNetworking'
  s.dependency 'WebViewJavascriptBridge'
  s.dependency 'JPush'
