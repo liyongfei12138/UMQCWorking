@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMQCWorking'
-  s.version          = '1.1.2'
+  s.version          = '1.2.0'
   s.summary          = 'just a demo'
 
 
@@ -23,16 +23,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/liyongfei12138/UMQCWorking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'UMQCWorking/Classes/**/*'
-s.resources =  'UMQCWorking/QCKJBundle.bundle'
+    s.resources =  'UMQCWorking/QCKJBundle.bundle'
 
-
+s.framework = 'QCKJLib'
 
  s.dependency 'WebViewJavascriptBridge'
  s.dependency 'AFNetworking'
-
-s.dependency 'JPush'
-s.dependency 'UMengAnalytics-NO-IDFA'
+ s.dependency 'JPush'
+ s.dependency 'UMengAnalytics-NO-IDFA'
 end
