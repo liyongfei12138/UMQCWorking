@@ -6,7 +6,7 @@
 //  Copyright © 2019年 Bingo. All rights reserved.
 //
 
-#import "UIImage+QCKJImage.h"
+#import "UIImage+UMQCImage.h"
 
 @implementation UIImage (UMQCImage)
 + (UIImage *)imageWithOriginalRender:(NSString *)imageName{
