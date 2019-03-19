@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - UMQCWorking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - UMQCWorking (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  UMQCWorking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  UMQCWorking: 0f2bb277b00c170d617443783f92b44c9823e4ba
+
+PODFILE CHECKSUM: 7b9a5617466e6513e1f0a1c1ba7b16d177fb4008
+
+COCOAPODS: 1.5.3

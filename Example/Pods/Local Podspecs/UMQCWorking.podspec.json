@@ -1,0 +1,22 @@
+{
+  "name": "UMQCWorking",
+  "version": "0.1.0",
+  "summary": "A short description of UMQCWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liyongfei12138/UMQCWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyongfei12138": "lixin@uqian.com"
+  },
+  "source": {
+    "git": "https://github.com/liyongfei12138/UMQCWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UMQCWorking/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module UMQCWorking {
+  umbrella header "UMQCWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}
