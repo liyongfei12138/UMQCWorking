@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMQCWorking'
-  s.version          = '1.2.4'
+  s.version          = '1.2.6'
   s.summary          = 'just a demo'
 
 
@@ -25,7 +25,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'UMQCWorking/Classes/**/*'
+  s.source_files = 'UMQCWorking/Classes/**/*','UMQCWorking/QCKJLib.framework/Headers/*.{h}'
+
+
     s.resources =  'UMQCWorking/QCKJBundle.bundle'
 
 s.vendored_frameworks = 'UMQCWorking/QCKJLib.framework'
