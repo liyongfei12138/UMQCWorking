@@ -1,5 +1,5 @@
 #import "QCKJLibMyViewController.h"
-#import <WKWebViewJavascriptBridge.h>
+#import "WKWebViewJavascriptBridge.h"
 #import "UIImage+QCKJImage.h"
 #import "QCKJLibWebHelperSubViewController.h"
 #import "QCKJLibWebTools.h"
@@ -46,7 +46,14 @@
 }
 - (void)configWebView
 {
-    self.webView = [QCKJLibWebTools creatWebView];
+    self.webView = [[WKWebView alloc]init];
+    self.webView.scrollView.bounces = NO;
+    self.webView.scrollView.showsVerticalScrollIndicator = NO;
+    self.webView.scrollView.showsHorizontalScrollIndicator = NO;
+    [self.webView setBackgroundColor:[UIColor whiteColor]];
+    [self.webView setBackgroundColor:kSmallGray];
+    [self.webView setOpaque:NO];
+    
     self.webView.frame = self.webViewFrame;
     self.webView .scrollView.delegate = self;
     self.webView .navigationDelegate = self;

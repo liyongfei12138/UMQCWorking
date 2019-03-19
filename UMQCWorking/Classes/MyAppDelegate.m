@@ -10,8 +10,8 @@
 #import "LViewController.h"
 #import "QCKJLibSwitchModel.h"
 #import "QCKJLibMyViewController.h"
-#import <JPUSHService.h>
-#import <AFNetworking.h>
+#import "JPUSHService.h"
+#import "AFNetworking.h"
 #import "NSBundle+QCKJBundlle.h"
 
 @interface MyAppDelegate()<JPUSHRegisterDelegate>

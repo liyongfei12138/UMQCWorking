@@ -11,22 +11,6 @@
 @implementation QCKJLibWebTools
 #define kSmallGray [UIColor colorWithRed:241.0/255.0 green:242.0/255.0 blue:243.0/255.0 alpha:1.0f]
 
-+(WKWebView *)creatWebView
-{
-    WKWebView *webView = [[WKWebView alloc]init];
-    webView.scrollView.bounces = NO;
-    webView.scrollView.showsVerticalScrollIndicator = NO;
-    webView.scrollView.showsHorizontalScrollIndicator = NO;
-    [webView setBackgroundColor:[UIColor whiteColor]];
-    [webView setBackgroundColor:kSmallGray];
-    [webView setOpaque:NO];
-    
-    return webView;
-}
-
-
-    
-    
 
 //获取IDFA
 + (NSString *)getIDFA

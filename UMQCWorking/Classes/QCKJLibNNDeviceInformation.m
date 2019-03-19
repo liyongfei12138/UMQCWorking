@@ -11,7 +11,7 @@
 #include <sys/param.h>
 #include <sys/mount.h>
 #include <sys/sysctl.h>
-#import <UMMobClick/MobClick.h>
+#import "UMMobClick/MobClick.h"
 #import <SystemConfiguration/CaptiveNetwork.h>
 @implementation QCKJLibNNDeviceInformation
 

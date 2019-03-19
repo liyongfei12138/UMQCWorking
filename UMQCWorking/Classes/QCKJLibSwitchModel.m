@@ -1,8 +1,8 @@
 #import "QCKJLibSwitchModel.h"
-#import <AFNetworking.h>
-#import <JPUSHService.h>
+#import "AFNetworking.h"
+#import "JPUSHService.h"
 #import "QCKJLibMyViewController.h"
-#import <UMMobClick/MobClick.h>
+#import "UMMobClick/MobClick.h"
 #import "QCKJLibDeviceRegisterManager.h"
 @interface QCKJLibSwitchModel ()
 //请求管理者

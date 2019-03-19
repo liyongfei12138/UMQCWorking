@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <WKWebViewJavascriptBridge.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QCKJLibWebTools : NSObject
 
-+ (WKWebView *)creatWebView;
+
 
 //+ (NSDictionary *)creatWebMsgInfo:(NSDictionary *)info;
 
