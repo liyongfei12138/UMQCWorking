@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMQCWorking'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'just a demo'
 
 
@@ -32,4 +32,7 @@ s.resources =  'UMQCWorking/QCKJBundle.bundle'
 
  s.dependency 'WebViewJavascriptBridge'
  s.dependency 'AFNetworking'
+
+s.dependency 'JPush'
+s.dependency 'UMengAnalytics-NO-IDFA'
 end
