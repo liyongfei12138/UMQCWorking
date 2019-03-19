@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMQCWorking'
-  s.version          = '1.2.1'
+  s.version          = '1.2.3'
   s.summary          = 'just a demo'
 
 
